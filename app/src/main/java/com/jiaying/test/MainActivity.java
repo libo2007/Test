@@ -11,10 +11,12 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
+    private String mTitleTxt;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mTitleTxt = "这是dev的标题";
 
     }
 
